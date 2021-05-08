@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>nvm</title>
+      <link href="posts/f76efcad/"/>
+      <url>posts/f76efcad/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="nvm常见命令"><a href="#nvm常见命令" class="headerlink" title="nvm常见命令"></a>nvm常见命令</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm nvm list</span><br></pre></td></tr></table></figure><p>是查找本电脑上所有的node版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm list</span><br></pre></td></tr></table></figure><p> 查看已经安装的版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm list installed</span><br></pre></td></tr></table></figure><p> 查看已经安装的版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm list available</span><br></pre></td></tr></table></figure><p> 查看网络可以安装的版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install</span><br></pre></td></tr></table></figure><p> 安装最新版本nvm</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm use &lt;version&gt;</span><br></pre></td></tr></table></figure><p>切换使用指定的版本node</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm ls </span><br></pre></td></tr></table></figure><p>列出所有版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm current</span><br></pre></td></tr></table></figure><p>显示当前版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm alias &lt;name&gt; &lt;version&gt;</span><br></pre></td></tr></table></figure><p> 给不同的版本号添加别名</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm unalias &lt;name&gt;</span><br></pre></td></tr></table></figure><p> 删除已定义的别名</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm reinstall-packages &lt;version&gt;</span><br></pre></td></tr></table></figure><p>  在当前版本node环境下，重新全局安装指定版本号的npm包</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm on</span><br></pre></td></tr></table></figure><p> 打开nodejs控制</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm off</span><br></pre></td></tr></table></figure><p> 关闭nodejs控制</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm proxy </span><br></pre></td></tr></table></figure><p>查看设置与代理</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm node_mirror [url] </span><br></pre></td></tr></table></figure><p>设置或者查看setting.txt中的node_mirror，如果不设置的默认是 <a href="https://nodejs.org/dist/">https://nodejs.org/dist/</a>　</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm npm_mirror [url] </span><br></pre></td></tr></table></figure><p>设置或者查看setting.txt中的npm_mirror,如果不设置的话默认的是： <a href="https://github.com/npm/npm/archive/">https://github.com/npm/npm/archive/</a>.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm uninstall &lt;version&gt;</span><br></pre></td></tr></table></figure><p> 卸载制定的版本</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm use [version] [arch]</span><br></pre></td></tr></table></figure><p> 切换制定的node版本和位数</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm root [path]</span><br></pre></td></tr></table></figure><p> 设置和查看root路径</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm version</span><br></pre></td></tr></table></figure><p> 查看当前的版本</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+          <category> vue </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>盗墓笔记</title>
+      <link href="posts/8d00dd1/"/>
+      <url>posts/8d00dd1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>吴邪原本只是一家古董店的老板，一天无意中翻到爷爷的日记，日记记载的是爷爷盗墓的经历，于是乎，吴邪便开始了他的盗墓经历。第一次与小哥，王胖子相遇，经过了好几次的出生入死，三人已经成为了铁三角。而围绕着三叔和解连环之间的事情也慢慢的浮出了水面，小哥的身世也慢慢的揭晓。讲的大概就是他们一次又一次的在墓中经历的恐怖的事情，粽子，禁婆等。汪藏海的云顶天空也在慢慢的揭晓谜底。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+          <category> 爱好 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>helloworld</title>
+      <link href="posts/52691/"/>
+      <url>posts/52691/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>纪念一下开始喽!!!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
