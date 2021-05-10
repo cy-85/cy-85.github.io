@@ -1,0 +1,17 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>#canvas{
+    display: block;
+    background: #000;
+}
+#content-inner{
+    position: relative;
+}
+#header-inner{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    background: #000;
+}
+#header-inner p{
+    color: #fff;
+}

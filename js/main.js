@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
   let menusWidth = $menusEle && $menusEle.offsetWidth
   const $searchEle = document.querySelector('#search-button')
   let searchWidth = $searchEle && $searchEle.offsetWidth
+  //const $screenwidth=document.getElementById('content-inner')
+
 
   const adjustMenu = (change = false) => {
     if (change) {
@@ -36,15 +38,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const $mobileSidebarMenus = document.getElementById('sidebar-menus')
     const $menuMask = document.getElementById('menu-mask')
     const $body = document.body
-
-    function openMobileSidebar () {
+    
+    function openMobileSidebar() {
       btf.sidebarPaddingR()
       $body.style.overflow = 'hidden'
       btf.fadeIn($menuMask, 0.5)
       $mobileSidebarMenus.classList.add('open')
     }
 
-    function closeMobileSidebar () {
+    function closeMobileSidebar() {
       $body.style.overflow = ''
       $body.style.paddingRight = ''
       btf.fadeOut($menuMask, 0.5)
@@ -163,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
       this.classList.toggle('expand-done')
     }
 
-    function createEle (lang, item, service) {
+    function createEle(lang, item, service) {
       const fragment = document.createDocumentFragment()
 
       if (isShowTool) {
@@ -222,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function () {
   /**
  * PhotoFigcaption
  */
-  function addPhotoFigcaption () {
+  function addPhotoFigcaption() {
     document.querySelectorAll('#article-container img').forEach(function (item) {
       const parentEle = item.parentNode
       if (!parentEle.parentNode.classList.contains('justified-gallery')) {
@@ -371,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 200))
 
     // find the scroll direction
-    function scrollDirection (currentTop) {
+    function scrollDirection(currentTop) {
       const result = currentTop > initTop // true is down & false is up
       initTop = currentTop
       return result
@@ -520,7 +522,7 @@ document.addEventListener('DOMContentLoaded', function () {
       newEle.className = 'fas fa-sign-out-alt exit-readmode'
       $body.appendChild(newEle)
 
-      function clickFn () {
+      function clickFn() {
         $body.classList.remove('read-mode')
         newEle.remove()
         newEle.removeEventListener('click', clickFn)
@@ -643,10 +645,10 @@ document.addEventListener('DOMContentLoaded', function () {
       let textFont; const copyFont = window.getSelection(0).toString()
       if (copyFont.length > copyright.limitCount) {
         textFont = copyFont + '\n' + '\n' + '\n' +
-        copyright.languages.author + '\n' +
-        copyright.languages.link + window.location.href + '\n' +
-        copyright.languages.source + '\n' +
-        copyright.languages.info
+          copyright.languages.author + '\n' +
+          copyright.languages.link + window.location.href + '\n' +
+          copyright.languages.source + '\n' +
+          copyright.languages.info
       } else {
         textFont = copyFont
       }

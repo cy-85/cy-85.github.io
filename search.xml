@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>闭包</title>
+      <link href="posts/f9636392/"/>
+      <url>posts/f9636392/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol><li><h4 id="什么是闭包"><a href="#什么是闭包" class="headerlink" title="什么是闭包:"></a>什么是闭包:</h4><p> (1). 用法: 既重用一个变量，又保护变量不被篡改的一种编程方法<br> (2). 本质: ?</p></li><li><h4 id="为什么使用闭包"><a href="#为什么使用闭包" class="headerlink" title="为什么使用闭包:"></a>为什么使用闭包:</h4><h4 id="全局变量和局部变量都有不可兼得的优缺点"><a href="#全局变量和局部变量都有不可兼得的优缺点" class="headerlink" title="全局变量和局部变量都有不可兼得的优缺点"></a>全局变量和局部变量都有不可兼得的优缺点</h4><p> (1). 全局变量: 优: 可重用，缺: 随处可以极易被污染<br> (2). 局部变量: 优: 仅函数内可用，不会被污染，缺: 不可重用！</p></li><li><h4 id="何时"><a href="#何时" class="headerlink" title="何时:"></a>何时:</h4><h4 id="如果希望让一个函数即可重用一个变量，又保护这个变量不会被篡改，都用闭包！"><a href="#如果希望让一个函数即可重用一个变量，又保护这个变量不会被篡改，都用闭包！" class="headerlink" title="如果希望让一个函数即可重用一个变量，又保护这个变量不会被篡改，都用闭包！"></a>如果希望让一个函数即可重用一个变量，又保护这个变量不会被篡改，都用闭包！</h4></li><li><h4 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用 :"></a>如何使用 :</h4></li></ol><p>  3步: (不要问什么)<br>  (1). 定义一个外层函数包裹内层函数和要保护的变量<br>      问题: 内层函数成了外层函数内的局部函数，外部不可使用！<br>  (2). 外层函数将内层函数返回到外部！<br>      说明: 内层函数不要起名！因为反正外部接住这个内层函数后，人家还会起新的变量名。<br>      问题:函数只有调用才执行，才能获得返回结果<br>              函数不调用，就不会执行，也不会获得返回结果！<br>  (3). 想使用内层函数的人，必须调用外层函数获得内层函数！才能使用！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -- 前端 -- js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -- js -- 闭包 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mintUI</title>
       <link href="posts/d147b882/"/>
       <url>posts/d147b882/</url>
@@ -19,6 +44,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> mintUI </tag>
+            
+        </tags>
       
     </entry>
     
@@ -41,6 +72,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> nvm </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -61,6 +98,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> nvm </tag>
+            
+        </tags>
       
     </entry>
     
@@ -85,6 +128,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -105,6 +154,12 @@
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> nvm </tag>
+            
+        </tags>
       
     </entry>
     
@@ -127,6 +182,12 @@
       </categories>
       
       
+        <tags>
+            
+            <tag> 爱好 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -139,6 +200,12 @@
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>纪念一下开始喽!!!</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 爱好 </tag>
+            
+        </tags>
       
     </entry>
     
